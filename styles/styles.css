@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Cor de fundo */
+}
+
+header {
+    background-color: #2C3E50; /* Cor de fundo do cabeçalho */
+    padding: 15px 0; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza o texto */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 20px; 
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #2980B9; /* Cor dos links */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 15px; /* Tamanho da fonte */
+    padding: 10px 20px; /* Espaçamento interno dos links */
+}
+
+nav ul li a:hover {
+    background-color: #ECF0F1; /* Cor de fundo ao passar o mouse */
+    border-radius: 8px; 
+}
+
+section {
+    padding: 20px;
+    background-color: #ECF0F1; /* Cor de fundo das seções */
+    margin: 25px 0; /* Espaçamento entre as seções */
+}
+
+#sobre p {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+    line-height: 1.8; 
+    color: #2C3E50; /* Cor do texto */
+}
+
+#sobre .subtitulo {
+    font-size: 14px;
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+#sobre p strong {
+    font-weight: bold;
+    font-size: 22px; /* Tamanho da fonte maior para o nome */
+}
+
+/* Centraliza o título da seção */
+.centralizado {
+    text-align: center;
+}
+
+
+.formacao {
+    font-size: 16px;
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    color: #2C3E50; 
+}
+
+.formacao h3 {
+    font-size: 20px;
+    color: #2980B9; /* Cor do subtítulo */
+    text-align: left; /* Alinha o subtítulo à esquerda */
+    margin-bottom: 15px;
+}
+
+.formacao ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+.formacao ul li {
+    margin-bottom: 20px; /* Espaçamento entre os itens da lista */
+}
+
+.formacao ul li strong {
+    display: block; /* Exibe o texto em negrito em um bloco separado */
+    font-size: 18px; /* Tamanho da fonte maior para os títulos */
+    margin-bottom: 5px; 
+}
+
+/* seção de contato */
+#contato {
+    text-align: center;
+    margin-top: 50px; /* Espaçamento do topo */
+}
+
+.frase {
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    margin-bottom: 20px; 
+}
+
+#contato form {
+    margin-top: 20px; /* Espaçamento acima do formulário */
+}
+
+#contato label {
+    display: block; 
+    margin-bottom: 5px; /* Espaçamento entre os labels */
+}
+
+#contato input[type="text"],
+#contato input[type="email"] {
+    width: 30%; 
+    margin-bottom: 10px; /* Espaçamento entre os campos */
+    padding: 10px; 
+    box-sizing: border-box; /* Inclui o padding e a borda no cálculo da largura */
+}
+
+#contato textarea {
+    width: 30%; 
+    height: 150px; 
+    margin: 0 auto 10px auto; /* Margem automática nas laterais e inferior */
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; 
+    display: block; 
+    text-align: center; /* Centraliza o texto dentro da área de texto */
+}
+
+
+#contato button {
+    background-color: #2980B9; 
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; 
+}
+
+#contato button:hover {
+    background-color: #2C3E50; /* Cor de fundo ao passar o mouse */
+}
+
+
+
+
+
