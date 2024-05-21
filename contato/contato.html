@@ -1,1 +1,43 @@
-formulário de contato
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Portfólio de Luany</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Contato</a></li>
+                <li><a href="sobre.html">Quem sou?</a></li>
+                <li><a href="formacao.html">Formação Acadêmica</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <div class="centralizado">
+            <p class="frase">Deseja entrar em contato?</p> <!-- Mensagem de boas-vindas -->
+        </div>
+        <div class="centralizado">
+            <p class="frase">Preencha o formulário abaixo:</p> <!-- Instrução para preencher o formulário -->
+            <form action="https://example.com/form-handler" method="POST">
+                <label for="name"><strong>Nome:</strong></label>
+                <input type="text" id="name" name="name" required> <!-- Input de texto para o nome, obrigatório -->
+                
+                <label for="email"><strong>Email:</strong></label>
+                <input type="e-mail" id="e-mail" name="e-mail" required>
+                
+                <label for="message"><strong>Deixe sua mensagem:</strong></label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
+            </form>
+        </div>
+    </section>
+</body>
+</html>
